@@ -9,7 +9,7 @@ function showMessage(response) {
     noButton.style.position = "absolute";
 
     // Change image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "images/gun.gif";
+    document.getElementsByClassName("image")[0].src = "images/gun.png";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -34,10 +34,10 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "LESGOOO see you on the 14th babygirl😘😘";
+    yesMessage.textContent = "LESGOOO see you tonight at the Zen House se wurfn😘😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "images/sheep-love-heart.gif";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
